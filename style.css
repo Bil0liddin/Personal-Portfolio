@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "Inter ExtraBold";
+    src: url("fonts/Inter-ExtraBold.woff") format("woff2"),
+      url("fonts/Inter-ExtraBold.woff2") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Inter Medium";
+    src: url("fonts/Inter-Medium.woff") format("woff2"),
+      url("fonts/Inter-Medium.woff2") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Inter Bold";
+    src: url("fonts/Inter-Bold.woff") format("woff2"),
+      url("fonts/Inter-Bold.woff2") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+*,
+*::before,
+*::after {
+  box-sizing:inherit;
+}
+body{
+  overflow: hidden;
+  padding-left: 80px;
+  margin-top: 16px;
+}
+
+
+/*NAVIGATION BAR*/
+  .topnav {
+    padding: auto;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    font-family: Inter Medium;
+    padding: 0px 80px;
+    align-items: center;
+    float: right;
+    color: black;
+    
+  }
+  
+  .topnav a {
+    float: left;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    color: rgb(0, 0, 0);
+  }
+  .textnav{
+    display: flex;
+    
+  }
+  .txtnav{
+    text-align: left;
+  }
+
+  .imgtxt{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 80px;
+    float: left;
+  }
+  .btnmode {
+    width: 24px;
+    height: 24px;
+    border: none;
+    padding: 16px 22px;
+    background-color: transparent;
+    border: none;
+    border-radius: 12px;
+  }
+  .btnmode:active{
+    transform: translate(-2px);
+  }
+  .downloadcv{
+    border: none;
+    padding: 6px 16px;
+    margin-right: 80px;
+    border-radius: 12px;
+    background-color: rgba(17, 24, 39, 1);
+    color: rgba(249, 250, 251, 1);
+    font-family: Inter Medium;
+  }
+  .downloadcv:hover{
+    background-color: rgb(46, 55, 74);
+  }
+  .downloadcv:active{
+    background-color: rgba(17, 24, 39, 1);
+    transform: translate(-2px);
+  }
+  .about{
+    color: var(--gray-900, #111827);
+    margin: 0%;
+display: flexbox;
+
+font-family: Inter Bold;
+font-size: 40px;
+font-weight: 700;
+line-height: 62px;
+letter-spacing: 0.2px;
+  }
+ .vrapper{
+  padding-top: 96px;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 96px;
+  display: inline-flexbox;
+}
+ p{
+  font-family: Inter Medium;
+  color: var(--gray-600, #4B5563);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: inline-flexbox;  
+  width: 768px;
+ }
+ 
+.profile-picture{
+  
+  display: inline-block;
+  min-width: 384px;
+  
+  align-items: flex-end;
+  
+}
